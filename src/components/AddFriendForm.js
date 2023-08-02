@@ -16,7 +16,6 @@ export default function AddFriendForm({onAddFriend}) {
       balance: 0,
     };
     onAddFriend(newFriend)
-    console.log(newFriend);
     setName("");
     setImage("https://i.pravatar.cc/48")
   }
