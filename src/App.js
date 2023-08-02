@@ -42,6 +42,7 @@ export default function App() {
         <FriendList
           friends={friends}
           onSelectedFriends={handleDisplaySplitForm}
+          selectedFriend = {selectedFriend}
         />
         {showAddFriendForm && <AddFriendForm onAddFriend={handleAddFriends} />}
         <Button onClick={handleDisplayAddForm}>
